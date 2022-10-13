@@ -40,22 +40,28 @@ _Creating New Directory in the Terminal_
 ```
 mkdir test_pig
 cd test_pig/
+```
 
 _Initializing Git with User Details_
+```
 git init # Initialiating the Git Repository
 git config --global user.name "YIRJohnGit" # Specify the Author Name
 git config --global user.email yirjohn@gmail.com # Specify the Git Registered Email
 # git commit --amend --reset-author #Reset the Author Name
+```
 
--Pull the remote repository to the local repository -
+_Pull the remote repository to the local repository_
+```
 # git checkout main
 git pull https://github.com/YIRJohnGit/hadoop_pig.git
 ls -lshrt
+```
 
 _Making Change or Adding the contents or files_
 ``
 echo "Hi" > index.html
 ``
+
 _Adding the Change to the Local Repository_
 ```
 git add . # Adding the Git in Local Repo
