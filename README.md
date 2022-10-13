@@ -1,6 +1,6 @@
 # Git Quick Reference Sheet #
 
-## Git Installation if not found (Optional)##
+## Git Installation if not found (Optional) ##
 ```
 sudo apt install -y git 
 ```
