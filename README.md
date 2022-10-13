@@ -75,3 +75,8 @@ git push --set-upstream https://github.com/YIRJohnGit/hadoop_pig.git master
 ```
 _Result_ 
 ![image](https://user-images.githubusercontent.com/111234771/195471429-9e85f615-d1e6-419a-a0cf-19265c23f631.png)
+
+## Git Uninstallation if not required (Optional) ##
+```
+sudo apt remove -y git 
+```
