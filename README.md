@@ -76,6 +76,26 @@ git push --set-upstream https://github.com/YIRJohnGit/hadoop_pig.git master
 _Result_ 
 ![image](https://user-images.githubusercontent.com/111234771/195471429-9e85f615-d1e6-419a-a0cf-19265c23f631.png)
 
+# Pull from One repo and Push it another repo
+```
+git remote add origin https://gitlab.com/simpragma/own/devops/infra_setup_k8s.git
+git config --global user.name "YIRGitLab" # Specify the Author Name
+git config --global user.email yir.john@simpragma.com
+git remote add origin https://gitlab.com/simpragma/own/devops/infra_setup_k8s.git
+git config --global user.name "Irudaya Raj John YR" # Specify the Author Name
+git config --global user.email yir.john@simpragma.com
+git remote add origin https://gitlab.com/simpragma/own/devops/infra_setup_k8s.git
+git config
+git config --list
+git remote add origin https://gitlab.com/simpragma/own/devops/infra_setup_k8s.git
+git config --global --add safe.directory '%(prefix)///wsl$/Ubuntu/home/yir/k8s_infra/infra_setup'    
+git remote add origin https://gitlab.com/simpragma/own/devops/infra_setup_k8s.git
+git status
+git add .
+git commit -m "testing"
+git push origin main
+```
+
 ## Git Uninstallation if not required (Optional) ##
 ```
 sudo apt remove -y git 
